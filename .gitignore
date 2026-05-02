@@ -1,0 +1,24 @@
+# Ignore database config (important)
+db.php
+
+# Environment files
+.env
+
+# XAMPP / OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Node modules (if any)
+node_modules/
+
+# Vendor (if using composer)
+vendor/
+
+# IDE files
+.vscode/
