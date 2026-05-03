@@ -1,10 +1,11 @@
 # 🎓 College Event Management System
 
-A complete web-based application developed to manage college events efficiently. This system allows students to register for events, provide feedback, and enables administrators to manage events and monitor activities.
+A web-based application developed to manage college events efficiently.
+This system allows students to register for events, view their participation, and submit feedback, while administrators can manage events and monitor activities.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
 ### 👨‍🎓 Student Module
 
@@ -12,7 +13,7 @@ A complete web-based application developed to manage college events efficiently.
 * View Available Events
 * Register for Events
 * View My Registrations
-* Submit Feedback with ⭐ Ratings
+* Submit Feedback
 * View Submitted Feedback
 
 ### 👨‍💼 Admin Module
@@ -20,7 +21,7 @@ A complete web-based application developed to manage college events efficiently.
 * Admin Login
 * Add / Manage Events
 * View Student Registrations
-* View Feedback with Rating Summary
+* View Feedback
 
 ---
 
@@ -35,37 +36,40 @@ A complete web-based application developed to manage college events efficiently.
 
 ## 📂 Project Structure
 
-```
-college-event-management/
-│── connect.php
-│── login.php
-│── register.php
-│── student_dashboard.php
-│── admin_dashboard.php
-│── view_events.php
-│── event_register.php
-│── my_registrations.php
-│── student_feedback.php
-│── my_feedback.php
-│── logout.php
-│── database.sql
-│── assets/
-│── css/
+```id="ztwz0g"
+College_event/
+└── college/
+    │── connect.php
+    │── login.php
+    │── register.php
+    │── student_dashboard.php
+    │── admin_dashboard.php
+    │── view_events.php
+    │── event_register.php
+    │── my_registrations.php
+    │── student_feedback.php
+    │── my_feedback.php
+    │── logout.php
+    │── manage_events.php
+    │── database.sql
+    │── screenshots/
+    │── assets/
+    │── css/
 ```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-1. Install XAMPP or WAMP
+1. Install XAMPP / WAMP
 2. Start **Apache** and **MySQL**
 3. Copy project folder to:
 
    ```
-   htdocs/
+   C:\xampp\htdocs\College_event\
    ```
-4. Open **phpMyAdmin**
-5. Create a database:
+4. Open phpMyAdmin
+5. Create database:
 
    ```
    college_event
@@ -75,31 +79,65 @@ college-event-management/
    ```
    database.sql
    ```
-7. Run in browser:
+7. Run project:
 
    ```
-   http://localhost/college-event-management/
+   http://localhost/College_event/college/
    ```
-
----
-
-## 🔐 Default Login (Example)
-
-### Student
-
-* Email: [student@example.com](mailto:student@example.com)
-* Password: 123456
-
-### Admin
-
-* Email: [admin@example.com](mailto:admin@example.com)
-* Password: admin123
 
 ---
 
 ## 📸 Screenshots
 
-*Add your project screenshots here*
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+### 📝 Registration Page
+
+![Registration](screenshots/registration.png)
+
+### 🎓 Student Dashboard
+
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### 👨‍💼 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin_dashboard.png)
+
+### 📅 Events Page
+
+![Events](screenshots/events.png)
+
+### 🧾 Event Registration
+
+![Event Registration](screenshots/event_registration.png)
+
+### ⚙️ Manage Events
+
+![Manage Events](screenshots/manage_events.png)
+
+### 💬 Feedback Page
+
+![Feedback](screenshots/feedback.png)
+
+### 📊 My Feedback
+
+![My Feedback](screenshots/my_feedback.png)
+
+---
+
+## 🔐 Default Login
+
+### 👨‍🎓 Student
+
+* Email: [student@example.com](mailto:student@example.com)
+* Password: 123456
+
+### 👨‍💼 Admin
+
+* Email: [admin@example.com](mailto:admin@example.com)
+* Password: admin123
 
 ---
 
@@ -107,30 +145,18 @@ college-event-management/
 
 * Online Payment Integration
 * Email Notifications
-* Mobile Responsive UI
+* Mobile Responsive Design
 * Admin Analytics Dashboard
-
----
-
-## 📄 Project Report
-
-Project documentation is included in the repository:
-
-```
-FINAL_PROJECT_REPORT.pdf
-```
 
 ---
 
 ## 👨‍💻 Author
 
 **Putti Sri Harsha**
-BCA Student
-
 ---
 
 ## 📜 License
 
-This project is developed for educational purposes.
+This project is developed for educational purposes only.
 
 ---
