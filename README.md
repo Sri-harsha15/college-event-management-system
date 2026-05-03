@@ -1,7 +1,7 @@
 # 🎓 College Event Management System
 
 A web-based application developed to manage college events efficiently.
-This system allows students to register for events, view their participation, and submit feedback, while administrators can manage events and monitor activities.
+It allows students to register for events, track participation, and submit feedback, while administrators can manage events and monitor activities.
 
 ---
 
@@ -36,7 +36,7 @@ This system allows students to register for events, view their participation, an
 
 ## 📂 Project Structure
 
-```id="ztwz0g"
+```
 College_event/
 └── college/
     │── connect.php
@@ -153,6 +153,7 @@ College_event/
 ## 👨‍💻 Author
 
 **Putti Sri Harsha**
+
 ---
 
 ## 📜 License
